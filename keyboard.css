@@ -1,3 +1,84 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font: 90%/5.5 Verdana, Sans-Serif;
+background: #ffffff;
+}
+#kcontainer {
+margin: 100px auto;
+width: 1200px;
+
+}
+#keyboard {
+color: #ff0000 ;
+list-style: none;
+}
+    #keyboard li {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #ffffff;
+    border: 5px solid #696969;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    }
+        .started, .tab, .left-shift, .accept {
+        clear: left;
+        }
+            #keyboard .tab, #keyboard .delete {
+            width: 60px;
+            border: 5px solid #dc143c;
+            }
+            #keyboard .enter {
+            width: 210px;
+            border: 5px solid #dc143c;
+            }
+       
+            #keyboard .return {
+            width: 80px;
+            border: 5px solid #dc143c;
+            }
+            #keyboard .left-shift {
+            width: 135px;
+            border: 5px solid #dc143c;
+            }
+            #keyboard .right-shift {
+            width: 135px;
+            border: 5px solid #dc143c;
+            }
+            #keyboard .accept {
+            width: 160px;
+            border: 5px solid #dc143c;
+            }
+            #keyboard .cancel {
+            width: 160px;
+            border: 5px solid #dc143c;
+            }
+        .lastitem {
+        margin-right: 0;
+        }
+       
+        #keyboard .space {
+        
+        width: 685px;
+        }
+        .on {
+        display: none;
+        }
+        #keyboard li:hover {
+        position: relative;
+        top: 1px;
+        left: 1px;
+        border-color: #800000;
+        cursor: pointer;
+        }
+
